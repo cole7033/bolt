@@ -19,9 +19,6 @@ print("\x1b[0;32m**********************************\x1b[0m")
 def system(cmd):
     subprocess.call(cmd, shell=True)
     
-print("\x1b[0;32mDo You Wish To Install All The yum Shit\x1b[0m") 
-faggot = raw_input("Getting Ready Bitch Y to fuck the bitch hoe  Y/n: ")
-if faggot.lower() == "y":
     print("Installing all the yum installs")
     system("yum install gcc -y")
     system("yum install httpd -y")
@@ -66,4 +63,4 @@ if faggot.lower() == "y":
 
     system("clear") 
 print
-print("\x1b[0;35mCoded By Cheats I swear On god if you take credit kys  (:x1b[0m")
+print("\x1b[0;35mDone!  (:x1b[0m")
