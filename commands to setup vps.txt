@@ -1,0 +1,14 @@
+command 1- yum install dstat
+
+command 2- yum install cpan
+
+command 3- cpan force install Time::HiRes
+
+command 4- chmod 777 *
+
+command 5- yum install dos2unix
+
+command 6- yum install perl
+
+hit up @solar.hackz on ig for custom made perl scripts or a ovh bypass script
+or even botnet related stuff or tools
