@@ -8,7 +8,7 @@ use Config;
 $SIG{'PIPE'} = 'IGNORE';    #Ignore broken pipe errors
 
 print <<EOTEXT;
-Welcome to Slowloris - the low bandwidth, yet greedy and poisonous HTTP client by Laera Loris
+Welcome to MasterK3Y - the low bandwidth, yet greedy and poisonous HTTP client Re3v1s3d By: K3YHoL3S3c
 EOTEXT
 
 my ( $host, $port, $sendhost, $shost, $test, $version, $timeout, $connections );
@@ -212,7 +212,7 @@ sub doconnections {
     $first[$_]   = 0 foreach ( 1 .. $num );    #initializing
     while (1) {
         $failedconnections = 0;
-        print "\t\tBuilding sockets.\n";
+        print "\t\tPwNd By #K3yHoL3S3c.\n";
         foreach my $z ( 1 .. $num ) {
             if ( $working[$z] == 0 ) {
                 if ($ssl) {
@@ -287,7 +287,7 @@ sub doconnections {
                 }
             }
         }
-        print "\t\tSending data.\n";
+        print "\t\tOne keyhole has opened the door to your all your security we.\n";
         foreach my $z ( 1 .. $num ) {
             if ( $working[$z] == 1 ) {
                 if ( $sock[$z] ) {
@@ -312,7 +312,7 @@ sub doconnections {
             }
         }
         print
-"Current stats:\tSlowloris has now sent $packetcount packets successfully.\nThis thread now sleeping for $timeout seconds...\n\n";
+"Current stats:\tThe K3Y Keeper now sent $packetcount Master K3Y to open your fire doors.\nK3YHoL3S3c will be back in $timeout seconds...\n\n";
         sleep($timeout);
     }
 }
@@ -337,8 +337,7 @@ __END__
 
 =head1 TITLE
 
-Slowloris by llaera
-
+K3YHoL3S3cUr1tY INVASION
 =head1 VERSION
 
 Version 1.0 Stable
